@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/trafficisobar_test/static/css/main.30b6a9da.chunk.css",
+    "main.js": "/trafficisobar_test/static/js/main.47f256ab.chunk.js",
+    "main.js.map": "/trafficisobar_test/static/js/main.47f256ab.chunk.js.map",
+    "runtime-main.js": "/trafficisobar_test/static/js/runtime-main.0f0fd01f.js",
+    "runtime-main.js.map": "/trafficisobar_test/static/js/runtime-main.0f0fd01f.js.map",
+    "static/js/2.73dfc0b0.chunk.js": "/trafficisobar_test/static/js/2.73dfc0b0.chunk.js",
+    "static/js/2.73dfc0b0.chunk.js.map": "/trafficisobar_test/static/js/2.73dfc0b0.chunk.js.map",
+    "index.html": "/trafficisobar_test/index.html",
+    "static/css/main.30b6a9da.chunk.css.map": "/trafficisobar_test/static/css/main.30b6a9da.chunk.css.map",
+    "static/js/2.73dfc0b0.chunk.js.LICENSE.txt": "/trafficisobar_test/static/js/2.73dfc0b0.chunk.js.LICENSE.txt",
+    "static/media/foto.ece22f50.png": "/trafficisobar_test/static/media/foto.ece22f50.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f0fd01f.js",
+    "static/js/2.73dfc0b0.chunk.js",
+    "static/css/main.30b6a9da.chunk.css",
+    "static/js/main.47f256ab.chunk.js"
+  ]
+}
