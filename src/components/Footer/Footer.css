@@ -1,0 +1,31 @@
+/*Desktop large*/
+
+.footer {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+    font-size: 20px;
+    min-height: 112px;
+    display: flex;
+    align-items: center;
+}
+
+/*Tablet*/
+
+@media (max-width: 1199px) {
+    .footer {
+        margin-top: 50px;
+        font-size: 18px;
+        min-height: 100px; 
+    }
+  }
+
+/*Mobile */
+
+@media (max-width: 767px) {
+    .footer {
+        display: block;
+        text-align: center;
+        min-height: 50px;
+        font-size: 14px;
+    }
+}

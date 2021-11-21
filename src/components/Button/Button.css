@@ -1,0 +1,27 @@
+/*Desktop large*/
+
+button {
+    padding: 16px 27px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--color-primary);color: #ffffff;
+    border: none;
+}
+
+/*Mobile */
+
+@media (max-width: 767px) {
+    button {
+        margin: 0 auto;
+        width: 260px;
+        padding: 16px 27px;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        background-color: var(--color-primary);
+        color: #ffffff;
+        border: none;
+    }
+}

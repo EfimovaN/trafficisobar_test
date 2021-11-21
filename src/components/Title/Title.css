@@ -1,0 +1,68 @@
+/*Desktop large*/
+
+.title {
+    margin: 100px 0 32px;
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+  
+.title::before,
+.title::after {
+    content: "";
+    position: absolute;
+    width: 156px;
+    top: 30px;
+    left: -185px;
+    border-bottom: 4px solid var(--color-primary);
+}
+  
+.title::after {
+    left: 295px;
+}
+  
+/*Tablet*/
+
+@media (max-width: 1199px) {
+    .title {
+        margin: 50px 0;
+        position: relative;
+        font-size: 40px;
+    }
+    
+    .title::before,
+    .title::after {
+        width: 120px;
+        top: 20px;
+        left: -160px;
+        border-bottom: 3px solid var(--color-primary);
+    }
+    
+    .title::after {
+        left: 220px;
+    }
+}
+
+/*Mobile */
+
+@media (max-width: 767px) {
+    .title {
+        margin: 30px 0 50px;
+        position: relative;
+        font-size: 30px;
+    }
+      
+    .title::before,
+    .title::after {
+        width: 60px;
+        top: 15px;
+        left: -74px;
+        border-bottom: 2px solid var(--color-primary);
+    }
+    
+    .title::after {
+        left: 145px;
+    }
+}

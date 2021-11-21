@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
+import './About.css';
 import Title from "../Title/Title";
 import foto from './../../img/foto.png';
 

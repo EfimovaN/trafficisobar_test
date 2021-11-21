@@ -1,0 +1,134 @@
+/*Desktop large*/
+
+.about {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__info {
+    margin-right: 57px;
+    display: flex; 
+    justify-content: flex-start;
+}
+
+.about__description {
+    margin-right: 160px;
+    max-width: 50%;
+}
+.about__description h2 {
+    margin: 23px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about__description p {
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.about__foto {
+    width: 400px;
+    height: 400px;
+}
+
+.about__link {
+    padding: 16px 27px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--color-primary);color: #ffffff;
+    border: none;
+}
+
+/*Tablet*/
+
+@media (max-width: 1199px) {
+    .about__info {
+        margin-right: 0;
+        justify-content: flex-start;
+    }
+      
+    .about__description {
+        margin-right: 80px;
+        max-width: 60%;
+    }
+
+    .about__description h2 {
+        margin: 23px 0;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .about__description p {
+        margin-bottom: 35px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .about__foto {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/*Mobile */
+
+@media (max-width: 767px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about__info {
+        flex-direction: column;
+    }
+
+    .about__foto {
+        margin: 0 auto;
+        order: 0;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .about__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: 1;
+        margin: 0;
+        padding: 0 10px;
+        max-width: 100%;
+    }
+
+    .about__description h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    
+    .about__description p {
+        margin-bottom: 35px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .about__link {
+        margin: 0 auto;
+        width: 260px;
+        padding: 16px 27px;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        background-color: var(--color-primary);
+        color: #ffffff;
+        border: none;
+    }
+}

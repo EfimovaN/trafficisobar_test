@@ -1,0 +1,27 @@
+/*Desktop large*/
+
+.header {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 112px;
+}
+
+/*Mobile */
+
+@media (max-width: 767px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 112px; 
+    }
+
+    .logo {
+        width: 180px;
+        margin-bottom: 30px;
+    }
+}

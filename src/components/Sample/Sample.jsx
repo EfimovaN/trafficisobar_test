@@ -1,7 +1,7 @@
 import {React, useEffect, useState} from "react";
+import './Sample.css';
 import Button from "../Button/Button";
 import Title from "../Title/Title";
-
 
 const Sample = () => {
     const [foto, setFoto] = useState(null);
